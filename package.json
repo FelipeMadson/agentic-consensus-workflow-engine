@@ -1,0 +1,19 @@
+{
+  "name": "agentic-consensus-workflow-engine",
+  "version": "1.0.0",
+  "description": "Deterministic Multi-Agent Consensus and Tool-Calling Pipeline with local models, schema contracts, and confidence scoring",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "author": "Felipe Madison",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
